@@ -33,7 +33,7 @@ function viewCart() {
       return sentence;
       }
       else if (i === cart.length - 1){
-        sentence = sentence + `and ${cart[i].itemName} at $${cart[i].itemPrice}.`;
+        sentence = sentence + ` and ${cart[i].itemName} at $${cart[i].itemPrice}.`;
         return sentence;
       }
       else{
