@@ -17,7 +17,7 @@ function addToCart(item) {
  cartObject.itemName = item;
  cartObject.itemPrice = price;
  cart.push(cartObject);
- return 
+ return
 }
 
 function viewCart() {
@@ -39,6 +39,7 @@ function viewCart() {
       else{
           sentence = sentence + `${cart[i].itemName} at $${cart[i].itemPrice},`;
       }
+    }
   }
 }
 
