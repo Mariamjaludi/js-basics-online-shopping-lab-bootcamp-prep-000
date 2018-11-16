@@ -17,12 +17,12 @@ function addToCart(item) {
  cartObject.itemName = item;
  cartObject.itemPrice = price;
  cart.push(cartObject);
- return
+ return `${cartObject.itemName} has been added to your cart.`
 }
 
 function viewCart() {
   // write your code here
-  if (cart.lenth === 0){
+  if (cart.length === 0){
     return "Your shopping cart is empty.";
   }
   else{
