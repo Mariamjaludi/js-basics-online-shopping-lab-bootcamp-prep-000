@@ -37,7 +37,7 @@ function viewCart() {
         return sentence;
       }
       else{
-          sentence = sentence + ` ${cart[i].itemName} at $${cart[i].itemPrice},`;
+          sentence = sentence + `${cart[i].itemName} at $${cart[i].itemPrice},`;
       }
     }
   }
